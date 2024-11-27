@@ -1,0 +1,7 @@
+name: 'Islandora Altmetric'
+type: module
+description: 'Displays Altmetric Badge in a block'
+package: Custom
+core_version_requirement: ^10 || ^11
+dependencies:
+  - islandora:islandora

@@ -1,0 +1,7 @@
+block.settings.islandora_altmetric_islandora_altmetric:
+  type: block_settings
+  label: 'Islandora Altmetric block'
+  mapping:
+    example:
+      type: string
+      label: Example

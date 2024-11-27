@@ -1,0 +1,4 @@
+islandora_altmetric:
+  js:
+    js/doi_embed.js: {}
+

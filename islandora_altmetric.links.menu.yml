@@ -1,0 +1,6 @@
+islandora_altmetric.altimetric_settings:
+  title: Altimetric settings
+  description: Setting for Altimetric Badge
+  parent: entity.islandora_citations.config_overview
+  route_name: islandora_altmetric.altimetric_settings
+  weight: 10

@@ -1,0 +1,7 @@
+islandora_altmetric.altimetric_settings:
+  path: '/admin/config/system/altimetric-settings'
+  defaults:
+    _title: 'Altimetric settings'
+    _form: 'Drupal\islandora_altmetric\Form\AltimetricSettingsForm'
+  requirements:
+    _permission: 'administer site configuration'

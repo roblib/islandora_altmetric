@@ -12,7 +12,7 @@ use Drupal\Core\Entity\EntityFieldManagerInterface;
 /**
  * Configure Islandora Altmetric settings for this site.
  */
-final class AltimetricSettingsForm extends ConfigFormBase {
+final class AltmetricSettingsForm extends ConfigFormBase {
 
   /**
    * The entity field manager service.

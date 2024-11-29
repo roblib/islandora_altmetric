@@ -1,7 +1,7 @@
 islandora_altmetric.altmetric_settings:
   path: '/admin/config/system/altmetric-settings'
   defaults:
-    _title: 'altmetric settings'
-    _form: 'Drupal\islandora_altmetric\Form\altmetricSettingsForm'
+    _title: 'Altmetric settings'
+    _form: 'Drupal\islandora_altmetric\Form\AltmetricSettingsForm'
   requirements:
     _permission: 'administer site configuration'

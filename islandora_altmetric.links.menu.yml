@@ -1,5 +1,5 @@
 islandora_altmetric.altmetric_settings:
-  title: altmetric settings
+  title: Altmetric settings
   description: Setting for altmetric Badge
   parent: entity.islandora_citations.config_overview
   route_name: islandora_altmetric.altmetric_settings

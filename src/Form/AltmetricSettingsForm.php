@@ -22,7 +22,7 @@ final class AltmetricSettingsForm extends ConfigFormBase {
   protected $entityFieldManager;
 
   /**
-   * Constructs a AltimetricSettingsForm object.
+   * Constructs a AltmetricSettingsForm object.
    *
    * @param \Drupal\Core\Entity\EntityFieldManagerInterface $entity_field_manager
    *   The entity field manager service.
@@ -44,7 +44,7 @@ final class AltmetricSettingsForm extends ConfigFormBase {
    * {@inheritdoc}
    */
   public function getFormId(): string {
-    return 'islandora_altmetric_altimetric_settings';
+    return 'islandora_altmetric_altmetric_settings';
   }
 
   /**

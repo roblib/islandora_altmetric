@@ -12,11 +12,11 @@ use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
- * Provides an islandora altimetric block.
+ * Provides an islandora metric block.
  *
  * @Block(
- *   id = "islandora_altmetric_islandora_altimetric",
- *   admin_label = @Translation("Islandora Altimetric"),
+ *   id = "islandora_altmetric_islandora_altmetric",
+ *   admin_label = @Translation("Islandora Altmetric"),
  *   category = @Translation("Custom"),
  * )
  */

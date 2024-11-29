@@ -20,7 +20,7 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
  *   category = @Translation("Custom"),
  * )
  */
-final class IslandoraAltimetricBlock extends BlockBase implements ContainerFactoryPluginInterface {
+final class IslandoraAltmetricBlock extends BlockBase implements ContainerFactoryPluginInterface {
 
   /**
    * The entity type manager service.

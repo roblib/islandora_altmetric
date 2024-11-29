@@ -79,8 +79,14 @@ final class IslandoraAltimetricBlock extends BlockBase implements ContainerFacto
   public function build(): array {
     $config = $this->configFactory->get('islandora_altmetric.settings');
     $node = $this->routeMatch->getParameter('node');
+    if (!$node) {
+      return [];
+    }
     $doi_field = $config->get('doi_field') ?? 'field_doi';
     $doi = $node->$doi_field->value;
+    if (!$doi) {
+      return [];
+    }
     $style = $config->get('style');
     $markup = <<<EOD
     <div class="altmetric-embed" data-badge-type='$style' data-badge-popover="right" data-doi="$doi"></div>

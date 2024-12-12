@@ -83,7 +83,7 @@ final class IslandoraAltmetricBlock extends BlockBase implements ContainerFactor
       return [];
     }
     $doi_field = $config->get('doi_field') ?? 'field_doi';
-    $doi = $node->$doi_field->value;
+    $doi = !empty($node->$doi_field->value) ? $node->$doi_field->value : null;
     if (!$doi) {
       return [];
     }

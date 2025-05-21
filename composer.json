@@ -1,0 +1,11 @@
+{
+    "name": "roblib/islandora-altmetric",
+    "type": "drupal-custom-module",
+    "description": "Displays Altmetric badge in a block",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/islandora": "^2.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
